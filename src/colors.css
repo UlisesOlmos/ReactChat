@@ -1,0 +1,26 @@
+:root {
+    --header-background: #F5F5F5;
+
+    --user-background: #e3e5e8;
+
+
+    --messages-background: #FFFFFF;
+    --forms-background: #F0F0F0;
+    --font-color: #111111;
+    --font-gray: #BBBBBB;
+    --border-color: #D3D3D3;
+    --font-msg-form:#000000;
+}
+
+.dark {
+    --header-background: #2C2C2C;
+
+    --user-background: #202225;
+
+    --messages-background: #1A1E3F;
+    --forms-background: #343434;
+    --font-color: #EEEEEE;
+    --font-gray: #BBBBBB;
+    --border-color: #3F3F3F;
+    --font-msg-form: #CCCCCC;
+}

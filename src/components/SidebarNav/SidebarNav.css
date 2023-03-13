@@ -1,0 +1,64 @@
+.sidebar__options{
+    display: flex;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar__btn{
+    flex: 1;
+    background: none;
+    color: var(--font-msg-form);
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 7px 0;
+}
+
+.sidebar__btn:first-child{
+    border-right: 1px solid var(--border-color);
+}
+
+
+.sidebar__members{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.sidebar__user{
+    display: flex;
+    gap: 5px;
+}
+
+.sidebar__img{
+    border-radius: 50%;
+    width: 30px;
+}
+
+.sidebar__username{
+    color: var(--font-color);
+    padding: 3px 0;
+    font-size: .9em;
+}
+
+.sidebar__channels{
+    margin-top: 20px;
+}
+
+.channel__btn{
+    padding: 5px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    color: var(--font-msg-form);
+}

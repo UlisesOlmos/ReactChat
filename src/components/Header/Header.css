@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    background: var(--header-background);
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom:1px solid var(--border-color) ;
+    justify-content: space-between;
+}
+
+.logo{
+    text-align: start;
+    color: var(--font-color);
+}
+
+.theme__btn{
+    border: none;
+    font-size: 1.5em;
+    color: var(--font-color);
+    background: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.menu__btn{
+    display: none;
+}
+
+.channel__name{
+    color: var(--font-color);
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:700px){
+    .menu__btn{
+        cursor: pointer;
+        background: none;
+        color: var(--font-color);
+        border: none;
+        font-size: 1.5em;
+        display: flex;
+    }    
+    
+}

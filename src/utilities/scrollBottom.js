@@ -1,0 +1,1 @@
+export const scrollMessagesBottom = ()=> document.querySelector(".messages").scrollTo(0,document.querySelector(".messages").scrollHeight)

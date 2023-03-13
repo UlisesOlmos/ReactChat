@@ -1,0 +1,19 @@
+.signInForm{
+    background: var(--header-background);
+    height: 100vh;
+    display: flex;
+}
+
+.signInForm__content{
+    margin: auto;
+    border-radius: 10px;
+}
+
+.signIn__google{
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background: var(--user-background);
+    color: var(--font-color);
+}
