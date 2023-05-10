@@ -3,12 +3,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBkHA6XJ6tJWKHxfpu-NG3E4XVuMzFQSRE",
-    authDomain: "friendlychat-daafe.firebaseapp.com",
-    projectId: "friendlychat-daafe",
-    storageBucket: "friendlychat-daafe.appspot.com",
-    messagingSenderId: "220137805342",
-    appId: "1:220137805342:web:f62d72bb46a7496bf6000f"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
